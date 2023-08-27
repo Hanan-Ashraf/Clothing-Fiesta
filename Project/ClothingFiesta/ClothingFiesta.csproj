@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB4F122E-6256-436F-B43D-B27CDB831B65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClothingFiesta</RootNamespace>
+    <AssemblyName>ClothingFiesta</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Softwares\ClothingFiesta\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CF459D984269781EB81431FDCC16970E160D7F15</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ClothingFiesta_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClothingFiestaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClothingFiestaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\DataAccess.cs" />
+    <Compile Include="DeleteRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.designer.cs">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Discount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discount.Designer.cs">
+      <DependentUpon>Discount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateBillOutlet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateBillOutlet.designer.cs">
+      <DependentUpon>GenerateBillOutlet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutletHomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutletHomeScreen.Designer.cs">
+      <DependentUpon>OutletHomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutletStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutletStock.Designer.cs">
+      <DependentUpon>OutletStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchByOutlet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchByOutlet.designer.cs">
+      <DependentUpon>SearchByOutlet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDelivery.Designer.cs">
+      <DependentUpon>StockDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockHistory.Designer.cs">
+      <DependentUpon>StockHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRecord.resx">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discount.resx">
+      <DependentUpon>Discount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateBillOutlet.resx">
+      <DependentUpon>GenerateBillOutlet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutletHomeScreen.resx">
+      <DependentUpon>OutletHomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutletStock.resx">
+      <DependentUpon>OutletStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchByOutlet.resx">
+      <DependentUpon>SearchByOutlet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDelivery.resx">
+      <DependentUpon>StockDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockHistory.resx">
+      <DependentUpon>StockHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClothingFiestaDataSet.xsc">
+      <DependentUpon>ClothingFiestaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClothingFiestaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClothingFiestaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClothingFiestaDataSet.xss">
+      <DependentUpon>ClothingFiestaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClothingFiesta_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FashionFiesta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Products-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trolley-642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-64 %283%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64 %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-64 %283%2931.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-products-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-items-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-stock-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-about-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Awais.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irfan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-google-web-search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %283%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %287%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %288%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %289%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2811%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2814%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2835%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2836%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2838%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2842%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2843%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2844%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2847%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2867%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2871%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2873%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2874%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2875%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2876%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2884%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-500x5001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\70.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\701.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherrys-9588-3070795-1-zoom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dunheger_Logo_t-shirt____white_men_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dunheger_Logo_t-shirt____white_men_71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-outlet-location-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClothingFiesta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clothing-Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-receipt-dollar-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-scroll-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sale-price-tag-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClothingFiesta.About" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAQCAAAAAEAACAgAACAAAAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSet" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUBAwACBCxAgAApCBABAwEACAAgGQDoUAAAgAAGiBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.DeleteRecord" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAASAACAgABAAAAiEQAAKCAABgAAAAAAIBBAQCQQ=</HashCode>
+      <FileName>DeleteRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Discount" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAkAAIAACAAABAAgwCBAAACAAMAAAAAAAAAEAAEABA=</HashCode>
+      <FileName>Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.GenerateBillOutlet" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EREAAIQAQCBgiJCAiACESIAKTAQAgAACCEQYAQRGFAA=</HashCode>
+      <FileName>GenerateBillOutlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.HomeScreen" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQEAIAAYBGABJAUAIACBAAACUIgTBAWEAAAGAcFAAAA=</HashCode>
+      <FileName>HomeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Items" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACIAAABAGJAAEAAGACFAAQCAAAoAQAAKEgqQQAAIAA=</HashCode>
+      <FileName>Items.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.OutletHomeScreen" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAABIBCAhAAAMIACAABECEAAQBASkAAAEBRFAAAM=</HashCode>
+      <FileName>OutletHomeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.OutletStock" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>vqBttr9crDtKtxB2isiI1UAGF4nbbBFYxjMGe0Ru4DQ=</HashCode>
+      <FileName>OutletStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Products" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zup58y9gNjvLBxgo5u6wR6wGVonZWlKcgW6B2UNOYpU=</HashCode>
+      <FileName>Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Program" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.SearchByOutlet" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABCAAABAAABCAAAACAAogAAAAAAAAABBAAAA=</HashCode>
+      <FileName>SearchByOutlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.SplashScreen" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAACQAKBCAAACAIABSAIAABABAAAQQAABAAAA=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.StockDelivery" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EFEAAgAgACAAiAIAgBCEiBCazAAAkEADAIQcABTGBAA=</HashCode>
+      <FileName>StockDelivery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.StockHistory" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAAAACAAAACAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StockHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.ADMIN_TTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.OUTLET_MANAGERTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.OUTLET_STOCKTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.PRODUCTTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.PRODUCT_CATEGORIESTableAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.RECEIPTTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.STOCK_DELIVERYTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.OUTLET_INFOTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.ClothingFiestaDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxIAECAAAABAREEBAAAAMACgACBCgJAAQQQAAgAARAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.DataLayer.DataAccess" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAhDAABAAAABAABQAEkQkDhAoCAAACghIFAIBQE=</HashCode>
+      <FileName>DataLayer\DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KikIEEACGjFKBCIIXDwNEwQIAQBkRACCoAFgAQAMAKQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClothingFiesta.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAABBAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
